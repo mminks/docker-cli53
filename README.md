@@ -9,7 +9,7 @@ This image is as minimal as possible.
 My use case is to use it in RancherOS, where everything is a container. To simulate "normal" usage, you can do something ike this:
 
 ```
-echo 'docker run --rm mminks/docker-cli53 $@' > /usr/local/bin/cli53
+echo 'docker run --rm mminks/cli53 $@' > /usr/local/bin/cli53
 
 chmod +x /usr/local/bin/cli53
 ```
